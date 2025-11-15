@@ -1,0 +1,17 @@
+[Unit]
+Description=Qualcomm Remote Filesystem Service for trogdor devices
+Documentation=man:rmtfs(8)
+After=local-fs.target
+Conflicts=rmtfs.service
+
+[Service]
+Type=simple
+StateDirectory=rmtfs
+ExecStartPre=/usr/bin/install -d -m 0755 /var/lib/rmtfs/boot
+ExecStartPre=/usr/bin/sh -c 'for f in modem_fsc modem_fsg modem_fs1 modem_fs2; do test -f /var/lib/rmtfs/boot/$f || touch /var/lib/rmtfs/boot/$f; done'
+ExecStart=/usr/bin/rmtfs -vso /var/lib/rmtfs/boot
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
