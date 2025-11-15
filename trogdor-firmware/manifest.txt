@@ -1,0 +1,29 @@
+# trogdor-firmware source manifest
+# Generated from ChromeOS wormdingler image
+#
+# Columns:
+#   path: relative to the tarball root (e.g. usr/lib/firmware/…, usr/lib/systemd/system/…)
+#   type: file or symlink
+#   size: bytes for regular files, "-" for symlinks
+#   sha256_or_target: SHA256 for regular files, symlink target otherwise
+#   source: absolute path copied from
+
+path	type	size	sha256_or_target	source
+usr/lib/firmware/cros-pd/README.source	file	161	33d8e4faeca46e116c6ad13d32d0e9f02615ea97821b2b9e52820d04c91207ad	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/README.source
+usr/lib/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin	file	65536	9cdcb32fe8f678abb6170be8189005e78daec85eaa39a569c23d3b4cb33f2b9d	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin
+usr/lib/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin	file	65536	99f56aebbc29d43318a858121aff97c11bda1e7efff7d7755ba7b533f3b9023e	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin
+usr/lib/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin	file	65536	15f833017de4aed4c2ba187807470d63f032717d0c74f413a961ed46ae8f22de	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin
+usr/lib/firmware/cros-pd/hoho_v1.7.317-b0bb7c9.bin	file	65536	9e1a1cd64fb032a639542835ebabe61061a0a7401714daf42106b6912b6cc467	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/hoho_v1.7.317-b0bb7c9.bin
+usr/lib/firmware/cros-pd/hoho_v1.7.575-96b74f1.bin	file	65536	b36777f0a5fb1bbf20c6cdaf781f3ddc8de23aee85e9eb1b842c16a8c5c25ccf	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/hoho_v1.7.575-96b74f1.bin
+usr/lib/firmware/cros-pd/hoho_v1.7.684-69498dd.bin	file	65536	61c2fd818df24cc47e2d1667788e35b817ab5136e40dd14e456c38c9fd92a35c	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/hoho_v1.7.684-69498dd.bin
+usr/lib/firmware/cros-pd/zinger_v1.7.509-e5bffd3.bin	file	16384	aaca456178aa845e4e56eb9d10447a888306b11cadc79f4321a1efc9b956be8c	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/zinger_v1.7.509-e5bffd3.bin
+usr/lib/firmware/cros-pd/zinger_v1.7.539-91a0fa2.bin	file	16384	3f47d486cad28c5a0765ca7f624a0676e2fb4d42679abbda88dc8db72e7f13af	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/cros-pd/zinger_v1.7.539-91a0fa2.bin
+usr/lib/firmware/qcom/sc7180-trogdor/camera/CAMERA_ICP.elf	file	1363812	1f722d646e0da82f086435002cffcd4e0f890b353ae03f8a37a77ee7714053a5	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/sc7180-trogdor/camera/CAMERA_ICP.elf
+usr/lib/firmware/qcom/sc7180-trogdor/modem-nolte/mba.mbn	file	283296	5921570c371c8326686eab3bcdd616aafac31027334169c6fbcf06a91fd1e406	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/sc7180-trogdor/modem-nolte/mba.mbn
+usr/lib/firmware/qcom/sc7180-trogdor/modem-nolte/qdsp6sw.mbn	file	9222444	821409c327ae9080ef2595e6c403d5acf298bed534fb4f14fe20bebfca39e49b	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/sc7180-trogdor/modem-nolte/qdsp6sw.mbn
+usr/lib/firmware/qcom/sc7180-trogdor/modem/mba.mbn	file	283296	38dfe4dc78b4bdc585c3e670c56e4b624e4a804eb21fa52a0b320730e7cd478f	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/sc7180-trogdor/modem/mba.mbn
+usr/lib/firmware/qcom/sc7180-trogdor/modem/qdsp6sw.mbn	file	65583404	46ebb2a3734bff4693f0e71e73f66f9e0d3c2e00e7da3d1b70982a2e26e90001	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/sc7180-trogdor/modem/qdsp6sw.mbn
+usr/lib/firmware/qcom/venus-5.4/venus.mdt	symlink	-	venus.mbn	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/qcom/venus-5.4/venus.mdt
+usr/lib/firmware/rt3070.bin	symlink	-	rt2870.bin	/home/craig/Documents/ChromebookFirmware/chromeos-wormdingler-rootfs-lib-firmware/lib/firmware/rt3070.bin
+usr/lib/systemd/system/rmtfs-trogdor.service	file	436	b77f12b378fa5ee597d7f80f19596fd5b649b9002c890940fc469df8e10e81cd	/home/craig/Documents/ChromebookFirmware/packaging/trogdor-firmware/SOURCES/trogdor-firmware-2025.11.12/usr/lib/systemd/system/rmtfs-trogdor.service
+
